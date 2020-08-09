@@ -1,6 +1,8 @@
 import React from "react";
 import Reward from "react-rewards";
 import { useHistory } from "react-router-dom";
+import { Button } from "reactstrap";
+import "./Homepage.css";
 
 function Homepage() {
   let history = useHistory();
@@ -21,7 +23,9 @@ function Homepage() {
         }}
         type="memphis"
       >
-        <button onClick={() => handleClick()}>get to know me</button>
+        <Button color="link" onClick={() => handleClick()}>
+          get to know me
+        </Button>
       </Reward>
     </div>
   );

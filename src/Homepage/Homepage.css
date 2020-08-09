@@ -1,0 +1,16 @@
+.Homepage {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+  flex-direction: column;
+  font-family: 'Inconsolata', monospace;
+}
+
+button {
+  -webkit-box-shadow: none!important;
+  box-shadow: none!important;
+  text-decoration: none!important;
+}
