@@ -1,4 +1,4 @@
-.Homepage {
+.About {
   text-align: center;
   display: flex;
   justify-content: center;
@@ -10,12 +10,9 @@
   font-size: 1.2em;
 }
 
-button {
-  -webkit-box-shadow: none!important;
-  box-shadow: none!important;
-  text-decoration: none!important;
-}
-
-button:hover{
-  color: lime!important;
+img {
+  height: 300px;
+  width: 240px;
+  border-radius: 50%;
+  border: 1px solid rgb(149, 237, 203)!important;
 }

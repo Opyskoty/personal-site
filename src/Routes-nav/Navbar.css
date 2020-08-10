@@ -1,5 +1,9 @@
 .Navbar {
   float: right;
   font-size: 0.9em;
-  font-family: 'Inconsolata', monospace;
+  font-family: "Inconsolata", monospace;
+}
+
+a:hover {
+  color: lime !important;
 }
