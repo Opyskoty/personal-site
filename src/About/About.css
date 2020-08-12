@@ -1,29 +1,47 @@
 .About {
+  margin-top: 70px !important;
   text-align: center;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
   align-items: center;
-  height: 100%;
-  margin: 0 auto;
-  font-family: 'Inconsolata', monospace;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-family: "Inconsolata", monospace;
   font-size: 1.2em;
+  border: 1.5px solid rgb(163, 245, 243)!important;
 }
 
-img {
+.linkedIn {
   height: 300px;
   width: 210px;
   border-radius: 50%;
-  border: 1.5px solid rgb(149, 237, 203)!important;
-  margin-bottom: 2em;
 }
 
 a:hover {
-  text-decoration: none!important;
+  text-decoration: none !important;
+}
+
+a {
+  color: rgb(66, 183, 255)!important
 }
 
 span {
-  background-color: mediumturquoise;
+  background-color: rgb(163, 245, 243);
 }
 
+h4 {
+  margin-bottom: 30px !important;
+  margin-top: 15px !important;
+}
 
+.microblog {
+  width: 180px;
+  height: 150px;
+  border-radius: 30px;
+  margin-right: 30px;
+}
+
+.warbler {
+  width: 180px;
+  height: 150px;
+  border-radius: 30px;
+  margin-right: 30px;
+}

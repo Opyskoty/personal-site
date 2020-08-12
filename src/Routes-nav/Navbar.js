@@ -17,7 +17,7 @@ function Navbar() {
   }
   return (
     <div className="Navbar">
-      <Nav pullRight>
+      <Nav>
         <Reward
           ref={(ref) => {
             reward = ref;

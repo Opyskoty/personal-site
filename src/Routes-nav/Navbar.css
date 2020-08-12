@@ -1,9 +1,13 @@
 .Navbar {
   float: right;
-  font-size: 1em;
+  font-size: 1.1em;
   font-family: "Inconsolata", monospace;
 }
 
 a:hover {
   color: lime !important;
+}
+
+a {
+  color: rgb(66, 183, 255)!important
 }
