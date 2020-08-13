@@ -14,6 +14,7 @@ import linkedImage from "./LinkedIn.jpg";
 import microblog from "./Microblog.png";
 import warbler from "./warbler.png";
 import Reward from "react-rewards";
+import skills from "./skills";
 
 function About() {
   let reward;
@@ -29,7 +30,7 @@ function About() {
     }
   };
 
-  function handleClick(url) {
+  const handleClick = (url) => {
     reward.rewardMe();
     setTimeout(function () {
       history.push(url);
@@ -184,18 +185,11 @@ function About() {
         >
           <img className="linkedIn" src={linkedImage} alt="Olivia" />
           <div>
-            <span className="skills">javascript</span>{" "}
-            <span className="skills">react</span>{" "}
-            <span className="skills">node</span>{" "}
-            <span className="skills">redux</span>{" "}
-            <span className="skills">express</span>{" "}
-            <span className="skills">python</span>{" "}
-            <span className="skills">flask</span>{" "}
-            <span className="skills">sql</span>{" "}
-            <span className="skills">html5</span>{" "}
-            <span className="skills">css</span>{" "}
-            <span className="skills">postgresql</span>{" "}
-            <span className="skills">jquery</span>
+            {skills.map((s) => (
+              <>
+                <span className="skills">{s}</span>{" "}
+              </>
+            ))}
           </div>
         </Col>
       </Row>
