@@ -7,8 +7,7 @@ import {
   Carousel,
   CarouselItem,
   CarouselControl,
-  CarouselIndicators,
-  CarouselCaption,
+  CarouselIndicators
 } from "reactstrap";
 import georgie1 from "./georgie1.jpg";
 import georgie2 from "./georgie2.png";

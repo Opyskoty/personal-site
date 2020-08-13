@@ -93,11 +93,19 @@ function About() {
                 a blogging site where users can create, delete, and edit posts,
                 as well as vote and comment on posts. Built using React, Redux,
                 and PostgreSQL{" "}
-                <a href="https://microblog-op.me/" target="blank">
+                <a
+                  href="https://microblog-op.me/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Demo
                 </a>{" "}
                 |{" "}
-                <a href="https://github.com/Opyskoty/microblog" target="blank">
+                <a
+                  href="https://github.com/Opyskoty/microblog"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   GitHub
                 </a>
               </PopoverBody>
@@ -118,7 +126,11 @@ function About() {
               <PopoverHeader>Warbler</PopoverHeader>
               <PopoverBody>
                 a Twitter clone built using Python, Flask, and PostgreSQL
-                <a href="https://github.com/Opyskoty/warbler" target="blank">
+                <a
+                  href="https://github.com/Opyskoty/warbler"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   {" "}
                   GitHub
                 </a>
@@ -142,11 +154,19 @@ function About() {
                 a blogging site where users can create, delete, and edit posts,
                 as well as vote and comment on posts. Built using React, Redux,
                 and PostgreSQL{" "}
-                <a href="https://microblog-op.me/" target="blank">
+                <a
+                  href="https://microblog-op.me/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Demo
                 </a>{" "}
                 |{" "}
-                <a href="https://github.com/Opyskoty/microblog" target="blank">
+                <a
+                  href="https://github.com/Opyskoty/microblog"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   GitHub
                 </a>
               </PopoverBody>
@@ -164,10 +184,18 @@ function About() {
         >
           <img className="linkedIn" src={linkedImage} alt="Olivia" />
           <div>
-            <span>javascript</span> <span>react</span> <span>node</span>{" "}
-            <span>redux</span> <span>express</span> <span>python</span>{" "}
-            <span>flask</span> <span>sql</span> <span>html5</span>{" "}
-            <span>css</span> <span>postgresql</span> <span>jquery</span>
+            <span className="skills">javascript</span>{" "}
+            <span className="skills">react</span>{" "}
+            <span className="skills">node</span>{" "}
+            <span className="skills">redux</span>{" "}
+            <span className="skills">express</span>{" "}
+            <span className="skills">python</span>{" "}
+            <span className="skills">flask</span>{" "}
+            <span className="skills">sql</span>{" "}
+            <span className="skills">html5</span>{" "}
+            <span className="skills">css</span>{" "}
+            <span className="skills">postgresql</span>{" "}
+            <span className="skills">jquery</span>
           </div>
         </Col>
       </Row>
