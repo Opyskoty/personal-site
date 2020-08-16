@@ -2,6 +2,8 @@
 
 Includes about me, contact info, personal projects, and easter egg involving a cute dog!
 
+Deployed via Netlify at: oliviapyskoty.com
+
 ## Made with:
 * React
 * React Router
