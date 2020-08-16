@@ -1,17 +1,18 @@
-import React, { useState } from "react";
+import React from "react";
 import { useHistory } from "react-router-dom";
 import "./About.css";
 import {
   Container,
   Row,
   Col,
-  Popover,
+  UncontrolledPopover,
   PopoverHeader,
   PopoverBody,
 } from "reactstrap";
 import { Link } from "react-router-dom";
 import linkedImage from "./LinkedIn.jpg";
 import microblog from "./Microblog.png";
+import color from "./Color.png";
 import warbler from "./warbler.png";
 import Reward from "react-rewards";
 import skills from "./skills";
@@ -19,23 +20,13 @@ import skills from "./skills";
 function About() {
   let reward;
   let history = useHistory();
-  const [popover1Open, setPopover1Open] = useState(false);
-  const [popover2Open, setPopover2Open] = useState(false);
-
-  const toggle = (target) => {
-    if (target === "Popover1") {
-      setPopover1Open(!popover1Open);
-    } else if (target === "Popover2") {
-      setPopover2Open(!popover2Open);
-    }
-  };
 
   const handleClick = (url) => {
     reward.rewardMe();
     setTimeout(function () {
       history.push(url);
     }, 1200);
-  }
+  };
 
   return (
     <Container className="About">
@@ -76,18 +67,20 @@ function About() {
           </div>
           <h4>Things I've Built:</h4>
           <div>
+            <div className="font-italic click">
+              click on the icons to find out more
+            </div>
             <img
               src={microblog}
               alt="microblog"
               className="microblog"
               type="button"
-              id="Popover1"
+              id="PopoverLegacy1"
             ></img>
-            <Popover
+            <UncontrolledPopover
               placement="top"
-              isOpen={popover1Open}
-              target="Popover1"
-              toggle={() => toggle("Popover1")}
+              trigger="legacy"
+              target="PopoverLegacy1"
             >
               <PopoverHeader>MicroBlog</PopoverHeader>
               <PopoverBody>
@@ -110,19 +103,18 @@ function About() {
                   GitHub
                 </a>
               </PopoverBody>
-            </Popover>
+            </UncontrolledPopover>
             <img
               src={warbler}
               alt="warbler"
               className="warbler"
               type="button"
-              id="Popover2"
+              id="PopoverLegacy2"
             ></img>
-            <Popover
+            <UncontrolledPopover
               placement="top"
-              isOpen={popover2Open}
-              target="Popover2"
-              toggle={() => toggle("Popover2")}
+              trigger="legacy"
+              target="PopoverLegacy2"
             >
               <PopoverHeader>Warbler</PopoverHeader>
               <PopoverBody>
@@ -136,42 +128,42 @@ function About() {
                   GitHub
                 </a>
               </PopoverBody>
-            </Popover>
+            </UncontrolledPopover>
             <img
-              src={microblog}
-              alt="microblog"
-              className="microblog"
+              src={color}
+              alt="color"
+              className="color"
               type="button"
-              id="Popover1"
+              id="PopoverLegacy3"
             ></img>
-            <Popover
+            <UncontrolledPopover
               placement="top"
-              isOpen={popover1Open}
-              target="Popover1"
-              toggle={() => toggle("Popover1")}
+              trigger="legacy"
+              target="PopoverLegacy3"
             >
-              <PopoverHeader>MicroBlog</PopoverHeader>
+              <PopoverHeader>RGB Color Game</PopoverHeader>
               <PopoverBody>
-                a blogging site where users can create, delete, and edit posts,
-                as well as vote and comment on posts. Built using React, Redux,
-                and PostgreSQL{" "}
+                Mini game that generates a random RGB code. Objective of the
+                game is to find the square with the background color that
+                matches the code! Built using jQuery, Bootstrap, HTML and CSS
                 <a
-                  href="https://microblog-op.me/"
+                  href="https://opyskoty.github.io/color-game/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
+                  {" "}
                   Demo
                 </a>{" "}
                 |{" "}
                 <a
-                  href="https://github.com/Opyskoty/microblog"
+                  href="https://github.com/Opyskoty/color-game"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   GitHub
                 </a>
               </PopoverBody>
-            </Popover>
+            </UncontrolledPopover>
           </div>
         </Col>
         <Col
