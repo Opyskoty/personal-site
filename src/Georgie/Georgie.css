@@ -1,5 +1,5 @@
 .Georgie {
-  margin-top: 70px !important;
+  margin-top: 65px !important;
   text-align: center;
   align-items: center;
   padding-bottom: 10px;
@@ -14,7 +14,7 @@
 }
 
 .carousel-item > img {
-  width: 100%;
-  max-height: 450px;
+  width: 95%;
+  max-height: 460px;
   border-radius: 30px!important;
 }
