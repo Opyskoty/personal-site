@@ -9,9 +9,11 @@ import ContactModal from "../ContactModal";
 
 function Navbar() {
   const [modal, setModal] = useState(false);
-  const toggle = () => setModal(!modal);
   const history = useHistory();
   let reward;
+
+  const toggle = () => setModal(!modal);
+
   function handleClick(url) {
     reward.rewardMe();
     setTimeout(function () {
