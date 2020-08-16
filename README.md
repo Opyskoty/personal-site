@@ -1,3 +1,17 @@
+# Personal Website
+
+Includes about me, contact info, personal projects, and easter egg involving a cute dog!
+
+## Made with:
+* React
+* React Router
+* React Rewards
+* Reactstrap (Bootstrap)
+* Font Awesome
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
