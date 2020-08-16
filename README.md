@@ -2,7 +2,7 @@
 
 Includes about me, contact info, personal projects, and easter egg involving a cute dog!
 
-Deployed via Netlify at: [oliviapyskoty.com](oliviapyskoty.com)
+Deployed via Netlify at: <https://oliviapyskoty.com/>
 
 ## Made with:
 * React
