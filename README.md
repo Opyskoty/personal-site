@@ -9,9 +9,7 @@ Includes about me, contact info, personal projects, and easter egg involving a c
 * Reactstrap (Bootstrap)
 * Font Awesome
 
-
-
-
+***
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
