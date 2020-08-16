@@ -84,7 +84,7 @@ function About() {
             >
               <PopoverHeader>MicroBlog</PopoverHeader>
               <PopoverBody>
-                a blogging site where users can create, delete, and edit posts,
+                A blogging site where users can create, delete, and edit posts,
                 as well as vote and comment on posts. Built using React, Redux,
                 and PostgreSQL{" "}
                 <a
@@ -118,7 +118,7 @@ function About() {
             >
               <PopoverHeader>Warbler</PopoverHeader>
               <PopoverBody>
-                a Twitter clone built using Python, Flask, and PostgreSQL
+                A Twitter clone built using Python, Flask, and PostgreSQL
                 <a
                   href="https://github.com/Opyskoty/warbler"
                   target="_blank"
