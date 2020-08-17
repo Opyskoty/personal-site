@@ -1,12 +1,14 @@
 import React from "react";
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
 import "./ContactModal.css"
+import resume from "./Olivia-Pyskoty_Resume.pdf"
+
 
 function ContactModal({ toggle, modal, className }) {
   const emailLink = "mailto:olivia.pyskoty@gmail.com";
   const linkedInLink = "https://www.linkedin.com/in/olivia-pyskoty-5591b2104/";
   const gitHubLink = "https://github.com/Opyskoty";
-  const resumeLink ="https://docs.google.com/document/d/14lH6i-U8c7KvWDd-87V83bva2ZpE47kxVKzJ83HNFRc/edit#"
+
   return (
     <div className="ContactModal">
       <Modal isOpen={modal} toggle={toggle} className={className}>
@@ -26,7 +28,7 @@ function ContactModal({ toggle, modal, className }) {
             </a>
           </p>
           <p>
-            <a className="contactLink" href={resumeLink} target="_blank" rel="noopener noreferrer">
+            <a className="contactLink" href={resume} target="_blank" rel="noopener noreferrer">
               Resume
             </a>
           </p>
