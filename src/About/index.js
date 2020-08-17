@@ -66,8 +66,8 @@ function About() {
             </Reward>
           </div>
           <h4>Things I've Built:</h4>
-          <div>
-            <div className="font-italic click">
+          <div className="projects">
+          <div className="font-italic click">
               click on the icons to find out more
             </div>
             <img
