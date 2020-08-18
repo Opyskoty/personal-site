@@ -78,6 +78,7 @@ function About() {
               id="PopoverLegacy1"
             ></img>
             <UncontrolledPopover
+            key="1"
               placement="top"
               trigger="legacy"
               target="PopoverLegacy1"
@@ -178,9 +179,9 @@ function About() {
           <img className="linkedIn" src={linkedImage} alt="Olivia" />
           <div>
             {skills.map((s) => (
-              <>
-                <span className="skills">{s}</span>{" "}
-              </>
+              <React.Fragment key={s.id}>
+                <span className="skills">{s.skill}</span>{" "}
+              </React.Fragment>
             ))}
           </div>
         </Col>
