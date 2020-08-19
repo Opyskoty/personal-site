@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
 import "./ContactModal.css"
-import resume from "./Olivia-Pyskoty_Resume.pdf"
+import resume from "./Olivia_Pyskoty_Resume.pdf"
 
 
 function ContactModal({ toggle, modal, className }) {
