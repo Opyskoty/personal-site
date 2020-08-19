@@ -1,0 +1,159 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="About container"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="flexBox col-md-8"
+        style="display: flex; flex-flow: row wrap; justify-content: center;"
+      >
+        <h3>
+          About Me
+        </h3>
+        <p>
+          I am a full stack software engineer based in SF with a passion for React and minimalist designs. I have spent the past few years working as an Operations specialist in the tech world, but after writing a few sql queries I realized that coding is awesome! This led me to self-teach myself some Javascript and eventually complete Rithm School's full-stack web development program.
+        </p>
+        <div>
+          When I'm not coding, you can find me hanging out with my
+          <div />
+          <div
+            style="position: relative;"
+          />
+          <div
+            style="transform: none;"
+          >
+            <a
+              href="/"
+            >
+              dog
+            </a>
+            , attempting to cook, or hiking/running around Northern California.
+          </div>
+        </div>
+        <h4>
+          Things I've Built:
+        </h4>
+        <div
+          class="projects"
+        >
+          <div
+            class="font-italic click"
+          >
+            click on the icons to find out more
+          </div>
+          <img
+            alt="microblog"
+            class="microblog"
+            id="PopoverLegacy1"
+            src="Microblog.png"
+            type="button"
+          />
+          <img
+            alt="warbler"
+            class="warbler"
+            id="PopoverLegacy2"
+            src="warbler.png"
+            type="button"
+          />
+          <img
+            alt="color"
+            class="color"
+            id="PopoverLegacy3"
+            src="Color.png"
+            type="button"
+          />
+        </div>
+      </div>
+      <div
+        class="flexBox col-md-4"
+        style="display: flex; flex-flow: row wrap; justify-content: center;"
+      >
+        <img
+          alt="Olivia"
+          class="linkedIn"
+          src="LinkedIn.jpg"
+        />
+        <div>
+          <span
+            class="skills"
+          >
+            javascript
+          </span>
+           
+          <span
+            class="skills"
+          >
+            react
+          </span>
+           
+          <span
+            class="skills"
+          >
+            node
+          </span>
+           
+          <span
+            class="skills"
+          >
+            redux
+          </span>
+           
+          <span
+            class="skills"
+          >
+            express
+          </span>
+           
+          <span
+            class="skills"
+          >
+            python
+          </span>
+           
+          <span
+            class="skills"
+          >
+            flask
+          </span>
+           
+          <span
+            class="skills"
+          >
+            sql
+          </span>
+           
+          <span
+            class="skills"
+          >
+            html5
+          </span>
+           
+          <span
+            class="skills"
+          >
+            css
+          </span>
+           
+          <span
+            class="skills"
+          >
+            postgresql
+          </span>
+           
+          <span
+            class="skills"
+          >
+            jquery
+          </span>
+           
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
